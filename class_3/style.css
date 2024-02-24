@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #78D5F2;
+}
+.container{
+  text-align: center;
+  padding-top: 50px;
+  width: 50%;
+  margin: auto;
+}
+.main-container{
+  background-color: #B5C0D0;
+  margin-top: 15px;
+  padding: 15px 0;
+}
+.input-field, .operation{
+  padding-top: 15px;
+
+}
+input{
+  padding: 5px 5px;
+  border: none;
+  border-radius: 15px;
+}
+
+button{
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}

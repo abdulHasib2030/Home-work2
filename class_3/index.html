@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arithmetic operation</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Arithmetic operation in Form</h1>
+    <div class="main-container">
+      <div class="content">
+        <h3>Arithmetic Operation</h3>
+
+        <div class="input-field">
+          <label for="first_no">Enter First No: </label>
+          <input type="number" name="first_no" id="first_no">
+        </div>
+        <div class="input-field">
+          <label for="second_no">Enter Second No: </label>
+          <input type="number" name="second_no" id="second_no">
+        </div>
+        <div class="input-field">
+          <label for="answer">Your Answer: </label>
+          <input type="number" style="background-color: white;" disabled name="answer" id="answer">
+        </div>
+    <div class="operation">
+    <button id="summation">Add</button>
+    <button id="substract">Substract</button>
+    <button id="multiply">Multiply</button>
+    <button id="divide">Divide</button>
+  </div>
+  <button style="margin-top: 15px;" id="reset">Reset</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="./app.js"></script>
+</body>
+
+</html>
